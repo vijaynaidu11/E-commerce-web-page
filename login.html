@@ -1,0 +1,104 @@
+<html>
+<head>
+<link rel="stylesheet" href="style.css"/>
+<title>website Project</title>
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"/>
+
+<script type="text/javascript">
+functiin check()
+{
+var uname=document.getElementById("uname").value;
+var pwd=document.getElementById("pwd").value;
+if(uname=='teluguwebguru' && pwd=='twg123')
+{
+document.getElementById("form1").action="home.html";
+
+}
+else
+{
+
+document.getElementById("err").innerHTML=("Username or password is incorrect.");
+return false;
+}
+
+}
+</script>
+</head>
+<body>
+
+<div class="topheader ">
+<div class="left">
+pattabhiyatham@gmail.com
+</div>
+<div class="right">
+instagram id: vijay_naiduu
+</div>
+</div>
+
+<div class="header">
+<div class="row">
+<div class="hpart1"><img src="log1.png"></div>
+<div class="hpart2">Taurus</div>
+<div class="hpart3"> <a href="#" class="login">LOGIN</a></div>
+</div>
+
+</div>
+
+<div class="menubar">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#aboutus" >about us</a></li>
+<li><a href="#cloths">cloths available</a></li>
+<li><a href="#discounts">Discounts available</a></li>
+</ul>
+
+</div>
+<br/><br/>
+
+<div class="bodypart">
+<br/>
+<h1 class="sectitle" >Login Form</h1><br/>
+<form id="form1" name="form1" class="loginform" onsubmit="return check()">
+Username: <input type="text" id="uname" value=""/><br/><br/>
+Password: <input type="password" id="pwd" value=""/><br/><br/>
+<input type="submit" value="Login"/>
+</form>
+<br/><br/>
+<div id="err" style="color:red;text-align:center;margin-bottom:40px;">
+
+</div>
+</div>
+
+<div class="footer">
+<div class="part20">
+<h1>Youtube channel links</h1><br/>
+<a href="#">Mens Wear</a><br/>
+<a href="#">Womens Wear</a><br/>
+<a href="#">Children Wear</a><br/>
+<a href="#">Cultural</a><br/>
+
+</div>
+<div class="part20">
+<h1>Social media links</h1><br/>
+<a href="#">Facebook</a><br/>
+<a href="#">Instagram</a><br/>
+<a href="#">twitter</a><br/>
+<a href="#">linkedin</a><br/>
+</div>
+<div class="part40">
+<h1>Submit your request here</h1>
+<form>
+Email id :<br/>
+<input type="email" class="footerform"><br/>
+Request: <br/>
+<textarea rows="15" cols="59"></textarea><br/>
+<input type="submit" class="footerform btn" value="submit">
+
+</form>
+</div>
+
+</div>
+
+</body>
+</html>

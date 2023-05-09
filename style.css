@@ -1,0 +1,210 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+}
+
+body
+{
+}
+
+.topheader{
+height:40px;
+background-color:grey;
+font-size:20px;
+color:white;
+padding:8px;	
+}
+
+.header{
+height:130px;
+font-size:22px;	
+}
+.row{
+width:100%;
+padding:10px;
+padding-top:25px;	
+}
+.header img{
+	
+	height:70px;
+	width:70px;
+	}
+
+.menubar{
+height:40px;
+background-color:lightgrey;
+font-size:22px;	
+}
+.bodypart{
+height:auto;
+
+font-size:22px;	
+}
+.footer{
+	height:400px;
+	background-color:black;
+	width:100%;
+}
+
+.left{
+	
+	float:left;
+	
+}
+.right{
+	float:right;
+}
+
+.hpart1{
+	width:5%;
+	float:left;
+}
+
+.hpart2{
+	width:50%;
+	float:left;
+	font-size:45px;
+	color:green;
+	
+}
+.login{
+	text-decoration:none;
+	color:white;
+}
+
+.hpart3{
+	width:9%;
+	background-color:green;
+	float:right;
+	text-align:center;
+	padding:10px;
+	margin-right:45px;
+	border-radius:10px;
+}
+.hpart3:hover
+{
+	background-color:red;
+}
+.menubar ul{
+	width:100%;
+	list-style-type:none;
+}
+.menubar ul li{
+	float:left;
+	margin:10px  40px;
+	margin-bottom:20px;
+	
+	
+}
+.menubar ul li a {
+	display:block;
+	text-decoration:none;
+	color:black;
+	font-size:20px;
+	font-weight:bold;
+	font-family:'Arial';
+	padding-right:15px;
+	padding-left:15px;	
+}
+.menubar ul li a:hover{
+	background-color:red;
+	color:yellow;
+	
+}
+.sectitle{
+	text-align:center;
+	color:green;
+	font-weight:normal;
+	
+}
+.courses{
+	width:100%;
+	border:1px solid green;
+	margin:0  auto auto;
+	padding-left:40px;
+	
+}
+.coursediv{
+	width:20%;
+	border:1px solid lightgrey;
+	box-shadow:3px 6px green;
+	height:300px;
+	border-radius:10px;
+	float:left;
+	margin:25px 15px;
+	
+}
+.coursediv img{
+	width:100%;
+	border-radius:10px;
+	
+}
+.coursediv a{
+	text-decoration:none;
+	font-size:20px;
+	width:100%;
+	color:black;
+	padding:65px;
+	margin-top:10px;
+	
+	
+}
+.success img{
+	width:250px;
+	height:250px;
+	margin-right:40px;
+}
+.About{
+	width:80%;
+	margin:0 auto auto;
+	text-align:center;
+	
+}
+
+.part20{
+	width:20%;
+	float:left;
+	color:yellow;
+	padding:30px;
+	
+	
+}
+
+.footerform{
+width:400px;	
+	
+	
+}
+.btn{
+	background-color:grey;
+	color:white;
+	
+}
+
+.part20 a{
+	float:left;
+	color:white;
+	text-decoration:none;
+	margin-right:50px;
+	
+}
+
+.part40{
+	width:40%;
+	float:left;
+	color:white;
+	padding:30px;
+	text-decoration:none;
+	
+}
+.loginform
+{
+	width:30%;
+	margin:0 auto auto;
+	text-align:center;
+}
+
+	
+
